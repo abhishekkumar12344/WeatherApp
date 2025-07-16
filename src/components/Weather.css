@@ -1,0 +1,52 @@
+.weather-section {
+  padding: 3rem 1rem;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.weather-box input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-box button {
+  padding: 10px 15px;
+  background-color: #0077ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.result img {
+  width: 80px;
+}
+
+.forecast {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.forecast-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 120px;
+}

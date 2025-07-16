@@ -1,0 +1,15 @@
+body.light {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
